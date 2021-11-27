@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  rel="stylesheet" href="{% static "css/demo1.css" %}" >
+    <title>sayudda</title>
+</head>
+<body>
+<img src="{%static "image/QT-Virat-Kohli.jpg"%}">
+<img src="{%static "image/revanthreddy.jpg"%}">
+<img src="{%static "image/sunny.jpg"%}">
+<ul>
+    <h1> {{head_msg}}  </h1>  <hr>
+    <li>{{msg1}}</li>
+    <li>{{msg2}}</li>
+    <li>{{msg3}}</li>
+
+
+</ul>
+    <img src="{% static "image/sunny.jpg" %}">
+
+</body>
+</html>
